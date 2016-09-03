@@ -13,7 +13,7 @@
 3. 拷贝此目录到本地一个指定目录，比如：`/Users/Documents/nuwa`  
 4. 切换到`bugfix`分支  
 5. 在shell中执行如下命令  
-> ./gradlew clean nuwaDebugPatch -P NuwaDir=/Users/Documents/nuwa    
+> ./gradlew clean nuwaDebugPatch -P NuwaDir=/Users/liuzhenhui/Documents/nuwa
   
 成功后会在`app/build/outputs/nuwa/debug/`目录下会自动生成`patch.jar`文件：  
 **此文件就是我们热部署的补丁文件**  
